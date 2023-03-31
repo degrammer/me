@@ -3,7 +3,7 @@
 	name = Ruben Restrepo
 	email = ruben@stateful.com
 [alias]
-	wip = !read -p \"Enter branch name: \" name && git checkout -b \"wip/$name\"
+##	wip = !read -p \"Enter branch name: \" name && git checkout -b \"wip/$name\"
 	ready = !git branch -m \"$(git branch --show-current | sed \"s/wip\\///g\")\"
 	copy = !git branch --show-current | pbcopy
 	alias = !git config --get-regexp alias
