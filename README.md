@@ -19,3 +19,8 @@ Do not create a vim configuration file, Symlink it with the .zshrc file from thi
 ```bash
 ln -s ~/Documents/degrammer/me/.vimrc ~/.vimrc
 ```
+
+# Configuring OhMyZsh
+```bash
+ln -s ~/Documents/degrammer/me/.zshrc ~/.zshrc
+```
