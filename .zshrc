@@ -101,7 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias stateful="cd ~/Documents/stateful"
 alias work="cd ~/Documents/stateful/vscode-runme"
-alias uconfig="cd ~/Documents/degrammer/me && git add . && git commit -m \"update configuration\""    
+alias uconfig="cd ~/Documents/degrammer/me && git add . && git commit -m \"update configuration\" && git push origin head"    
 
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
