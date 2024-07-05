@@ -1,5 +1,5 @@
 
-# Bencho's Me Repo
+# Personal Stuff files
 
 This project contains all my configuration, it contains stuff like dotfiles, my CV, and more things!
 Stop starting from scratch when setting up a new Laptop, centralizing this will help you to keep your favorite configuration files in one single place.
