@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 name = Ruben Restrepo
-email = ruben@stateful.com
+	email = 4001529+degrammer@users.noreply.github.com
 [alias]
 wip = !read -p \"Enter issue number: \" issue && read -p \"What feature are you working on?:\" name && git checkout -b \"wip/bencho/$issue-$name\"
 ready = !git branch -m \"$(git branch --show-current | sed \"s/wip\\///g\")\"
@@ -13,3 +13,7 @@ main = !git branch --show-current | pbcopy | git checkout main
 last = !git for-each-ref --sort=-committerdate --format='%(refname:short)' refs/heads | head -1
 [init]
 defaultBranch = main
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff  "
